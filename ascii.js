@@ -81,14 +81,13 @@ function changeFont()
             document.getElementById("text-area").className ="textarea";
             break;
          case 'Large':
-            document.getElementById("text-area").className="textareaLargeF";
-            alert(document.getElementById("text-area").className);
+            document.getElementById("text-area").className="textareaLargeF";         
              break;
          case 'Extra Large':
-            document.getElementById("text-area").className="textareaExtraLarge";
+            document.getElementById("text-area").className="textareaExtraLargeF";
                 break;
          case 'XXL':
-            document.getElementById("text-area").className="textareaXXL";
+            document.getElementById("text-area").className="textareaXXLF";
             break;
          default:
             document.getElementById("text-area").className="textarea";
