@@ -91,6 +91,5 @@ function changeFont()
             break;
          default:
             document.getElementById("text-area").className="textarea";
-      }
-      var text= document.getElementById("text-area").fontSize;
+      }     
 }
