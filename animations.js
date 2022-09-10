@@ -15,7 +15,7 @@
 // PUT YOUR CODE IN THERE.  In myanimation.js, it is legal for you to modify
 // the variables that have been declared in this file.
 
-var BLANK = "";
+// var BLANK = "";
 
 var CUSTOM = "";   // you could change the value of this variable in your code
 
@@ -641,9 +641,15 @@ var DIVE = "  o\n" +
 // can also access the animations as an associative array / hash map,
 // such as ANIMATIONS["Bike"] or ANIMATIONS["Dive"]
 var ANIMATIONS = [];
-ANIMATIONS["Blank"] = ANIMATIONS["blank"] = ANIMATIONS["BLANK"] = "";
-ANIMATIONS["Custom"] = ANIMATIONS["custom"] = ANIMATIONS["CUSTOM"] = CUSTOM;   // you could change the value of this in your code
+//ANIMATIONS["Blank"] = ANIMATIONS["blank"] = ANIMATIONS["BLANK"] = "";
+ANIMATIONS.Blank = ANIMATIONS.blank = ANIMATIONS.BLANK = "";
+//ANIMATIONS["Custom"] = ANIMATIONS["custom"] = ANIMATIONS["CUSTOM"] = CUSTOM;   // you could change the value of this in your code
+ANIMATIONS.Custom = ANIMATIONS.custom = ANIMATIONS.CUSTOM = CUSTOM;   // you could change the value of this in your code
+//ANIMATIONS.Exercise = ANIMATIONS.exercise= ANIMATIONS.EXERCISE= EXERCISE;
 ANIMATIONS["Exercise"] = ANIMATIONS["exercise"] = ANIMATIONS["EXERCISE"] = EXERCISE;
-ANIMATIONS["Juggler"] = ANIMATIONS["juggler"] = ANIMATIONS["JUGGLER"] = JUGGLER;
-ANIMATIONS["Bike"] = ANIMATIONS["bike"] = ANIMATIONS["BIKE"] = BIKE;
-ANIMATIONS["Dive"] = ANIMATIONS["dive"] = ANIMATIONS["DIVE"] = DIVE;
+//ANIMATIONS["Juggler"] = ANIMATIONS["juggler"] = ANIMATIONS["JUGGLER"] = JUGGLER;
+ANIMATIONS.Juggler = ANIMATIONS.juggler = ANIMATIONS.JUGGLER= JUGGLER;
+//ANIMATIONS["Bike"] = ANIMATIONS["bike"] = ANIMATIONS["BIKE"] = BIKE;
+ANIMATIONS.Bike = ANIMATIONS.bike= ANIMATIONS.BIKE= BIKE;
+//ANIMATIONS["Dive"] = ANIMATIONS["dive"] = ANIMATIONS["DIVE"] = DIVE;
+ANIMATIONS.Dive = ANIMATIONS.dive = ANIMATIONS.DIVE = DIVE;
