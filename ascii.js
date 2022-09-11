@@ -47,9 +47,8 @@ function startAnimation()
     {
         document.getElementById('text-area').value = texts[idx];
         idx = (idx + 1) % texts.length;
-        setTimeOutID = setTimeout(displayFunction, animationSpeed);
     };
-    setTimeOutID = setTimeout(displayFunction, animationSpeed);
+    setTimerId = setInterval(displayFunction, animationSpeed);
 };
 
 
@@ -59,7 +58,7 @@ function stopAnimation()
     document.getElementById('stop').disabled = true;
     document.getElementById('start').disabled = false;
     document.getElementById('animation').disabled = false;
-    clearTimeout(setTimeOutID);
+    clearInterval(setTimerId);
     document.getElementById('text-area').value = ANIMATIONS[document.getElementById('animation').value];
 };
 
